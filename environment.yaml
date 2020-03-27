@@ -1,0 +1,25 @@
+name: nmf_asmbl
+channels:
+    - conda-forge 
+    - bioconda
+    - defaults
+dependencies:
+    - biopython
+    - snakemake
+    - bcalm=2.2.1
+    - cython
+    - screed
+    - sourmash
+    - khmer
+    - pandas
+    - numpy
+    - scipy
+    - pip
+    - mypy
+    - pytest
+    - sortedcontainers
+    - matplotlib
+    - networkx
+    - pip:
+        - https://github.com/dib-lab/pybbhash/archive/spacegraphcats.zip
+        - git+https://github.com/spacegraphcats/spacegraphcats.git
