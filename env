@@ -1,1 +1,2 @@
 conda activate nmf_asmbl
+alias smake="snakemake --profile profiles/default"
